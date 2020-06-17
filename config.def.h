@@ -18,11 +18,11 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class       instance title        tags mask isfloating iscentered isterminal noswallow monitor */
-	{ "KeePassXC", NULL,    NULL,        0,        1,         0,         0,         0,        -1 },
-	{ NULL,        NULL,    "float",     0,        1,         0,         0,         0,        -1 },
-	{ NULL,        NULL,    "vimwiki",   0,        1,         1,         0,         0,        -1 },
-	{ NULL,        NULL,    "st",        0,        0,         0,         1,         0,        -1 },
+	/* class       instance title        tags mask iscentered  isfloating isterminal noswallow monitor */
+	{ "KeePassXC", NULL,    NULL,        0,        0,          1,         0,         0,        -1 },
+	{ NULL,        NULL,    "float",     0,        0,          1,         0,         0,        -1 },
+	{ NULL,        NULL,    "vimwiki",   0,        1,          1,         0,         0,        -1 },
+	{ NULL,        NULL,    "st",        0,        0,          0,         1,         0,        -1 },
 };
 
 /* layout(s) */
