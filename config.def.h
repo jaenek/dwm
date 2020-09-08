@@ -20,7 +20,7 @@ static const Rule rules[] = {
 	 */
 	/* class       instance title        tags mask iscentered  isfloating isterminal noswallow monitor */
 	{ "KeePassXC", NULL,    NULL,        0,        0,          1,         0,         0,        -1 },
-	{ NULL,        NULL,    "float",     0,        0,          1,         0,         0,        -1 },
+	{ NULL,        "float", NULL,        0,        0,          1,         0,         0,        -1 },
 	{ NULL,        NULL,    "vimwiki",   0,        1,          1,         0,         0,        -1 },
 	{ NULL,        NULL,    "st",        0,        0,          0,         1,         0,        -1 },
 };
@@ -28,7 +28,7 @@ static const Rule rules[] = {
 /* layout(s) */
 static const float mfact     = 0.5;  /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
-static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
+static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
