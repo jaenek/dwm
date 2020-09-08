@@ -1676,6 +1676,7 @@ setlayout(const Arg *arg)
 }
 
 /* arg > 1.0 will set mfact absolutely */
+void
 setmfact(const Arg *arg)
 {
 	float f;
